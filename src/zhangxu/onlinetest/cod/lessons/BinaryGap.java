@@ -6,7 +6,7 @@ package zhangxu.onlinetest.cod.lessons;
  */
 public class BinaryGap {
 
-	public static int solution(int N) {
+	public int solution(int N) {
 		int max = 0;
 		int r;
 		int count = -1;
