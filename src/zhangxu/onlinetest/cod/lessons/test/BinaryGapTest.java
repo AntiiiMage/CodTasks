@@ -20,8 +20,20 @@ public class BinaryGapTest {
 	@Test
 	public void testSample1() {
 		int n = 0b10000010001011;
-		int result = bg.solution(n);
+		int expResult = 5;
+		int reaResult = bg.solution(n);
+		assertTest(n, expResult, reaResult);
 		assertEquals("Result should be 5 but get " + result, 5, result);
 	}
+
+
+
+	private void assertTest(int n, int expResult, int reaResult) {
+		// TODO Auto-generated method stub
+		assertEquals("Test with input: " + n + ", " + "expected: " + expResult + ", real: " + reaResult,);
+		
+	}
+	
+	
 
 }
