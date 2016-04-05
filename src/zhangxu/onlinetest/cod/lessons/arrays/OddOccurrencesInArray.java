@@ -1,4 +1,4 @@
-package zhangxu.onlinetest.cod.lessons;
+package zhangxu.onlinetest.cod.lessons.arrays;
 
 /*A binary gap within a positive integer N is any maximal sequence of consecutive 
  * zeros that is surrounded by ones at both ends in the binary representation of N.

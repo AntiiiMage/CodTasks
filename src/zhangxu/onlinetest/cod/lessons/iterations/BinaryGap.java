@@ -1,4 +1,4 @@
-package zhangxu.onlinetest.cod.lessons;
+package zhangxu.onlinetest.cod.lessons.iterations;
 
 /*point:
  number is even if number & 1 = 0
@@ -21,7 +21,6 @@ public class BinaryGap {
 			if (count > max)
 				max = count;
 			N = N >> 1;
-
 		}
 		return max;
 	}
@@ -29,63 +28,63 @@ public class BinaryGap {
 //	example1 
 //	example test n=1041=10000010001_2 ✔OK
 //	1. 0.004 s OK
-//	▶ example2 
+//	�? example2 
 //	example test n=15=1111_2 ✔OK
 //	1. 0.004 s OK
 //	collapse allCorrectness tests
-//	▶ extremes 
+//	�? extremes 
 //	n=1, n=5=101_2 and n=2147483647=2**31-1 ✔OK
 //	1. 0.004 s OK
 //	2. 0.004 s OK
 //	3. 0.004 s OK
-//	▶ trailing_zeroes 
+//	�? trailing_zeroes 
 //	n=6=110_2 and n=328=101001000_2 ✔OK
 //	1. 0.004 s OK
 //	2. 0.004 s OK
-//	▶ power_of_2 
+//	�? power_of_2 
 //	n=5=101_2, n=16=2**4 and n=1024=2**10 ✔OK
 //	1. 0.004 s OK
 //	2. 0.004 s OK
 //	3. 0.004 s OK
-//	▶ simple1 
+//	�? simple1 
 //	n=9=1001_2 and n=11=1011_2 ✔OK
 //	1. 0.004 s OK
 //	2. 0.004 s OK
-//	▶ simple2 
+//	�? simple2 
 //	n=19=10011 and n=42=101010_2 ✔OK
 //	1. 0.004 s OK
 //	2. 0.004 s OK
-//	▶ simple3 
+//	�? simple3 
 //	n=1162=10010001010_2 and n=5=101_2 ✔OK
 //	1. 0.004 s OK
 //	2. 0.004 s OK
-//	▶ medium1 
+//	�? medium1 
 //	n=51712=110010100000000_2 and n=20=10100_2 ✔OK
 //	1. 0.004 s OK
 //	2. 0.004 s OK
-//	▶ medium2 
+//	�? medium2 
 //	n=561892=10001001001011100100_2 and n=9=1001_2 ✔OK
 //	1. 0.004 s OK
 //	2. 0.004 s OK
-//	▶ medium3 
+//	�? medium3 
 //	n=66561=10000010000000001_2 ✔OK
 //	1. 0.004 s OK
-//	▶ large1 
+//	�? large1 
 //	n=6291457=11000000000000000000001_2 ✔OK
 //	1. 0.004 s OK
-//	▶ large2 
+//	�? large2 
 //	n=74901729=100011101101110100011100001 ✔OK
 //	1. 0.004 s OK
-//	▶ large3 
+//	�? large3 
 //	n=805306373=110000000000000000000000000101_2 ✔OK
 //	1. 0.004 s OK
-//	▶ large4 
+//	�? large4 
 //	n=1376796946=1010010000100000100000100010010_2 ✔OK
 //	1. 0.004 s OK
-//	▶ large5 
+//	�? large5 
 //	n=1073741825=1000000000000000000000000000001_2 ✔OK
 //	1. 0.004 s OK
-//	▶ large6 
+//	�? large6 
 //	n=1610612737=1100000000000000000000000000001_2 ✔OK
 //	1. 0.004 s OK
 

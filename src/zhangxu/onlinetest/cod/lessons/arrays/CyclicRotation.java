@@ -1,4 +1,4 @@
-package zhangxu.onlinetest.cod.lessons;
+package zhangxu.onlinetest.cod.lessons.arrays;
 
 public class CyclicRotation {
 
