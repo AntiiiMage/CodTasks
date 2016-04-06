@@ -16,5 +16,4 @@ public class InsertionSort {
 			A[j + 1] = key;
 		}
 	}
-
 }
